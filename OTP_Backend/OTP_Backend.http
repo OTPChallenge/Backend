@@ -1,0 +1,10 @@
+@OTP_Backend_HostAddress = https://localhost:7266
+
+GET {{OTP_Backend_HostAddress}}/otp/GenerateOTP
+Accept: application/json
+
+###
+
+GET {{OTP_Backend_HostAddress}}/otp/GenerateOTP2
+Accept: application/json
+###
